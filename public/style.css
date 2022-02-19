@@ -1,0 +1,66 @@
+.img-max {
+  border-radius: 5px;
+  height: 690px !important;
+  object-fit: cover;
+}
+
+.invisible {
+  opacity: 0%;
+}
+
+.image-rodri {
+  background-size: 100vw;
+  background-image: url(./assets/rodri-byw.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-about {
+  background-size: 100vw;
+  background-image: url(./assets/rodri-byw.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.animation-1 {
+  animation: fadeInAnimation ease 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.animation-2 {
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.animation-3 {
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.animation-4 {
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.animation-5 {
+  animation: fadeInAnimation ease 1.2s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
