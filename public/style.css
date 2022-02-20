@@ -4,6 +4,11 @@
   object-fit: cover;
 }
 
+.social-icons {
+  width:80px;
+  padding-bottom: 52px;
+}
+
 .invisible {
   opacity: 0%;
 }

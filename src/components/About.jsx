@@ -1,6 +1,7 @@
 import { Fragment, React } from "react";
 import { Link } from "react-router-dom";
 
+
 const About = () => {
   return (
     <Fragment>
@@ -22,7 +23,7 @@ const About = () => {
             </div>
 
             <div className="tile is-parent is-12">
-              <div className="tile is-child is-9">
+              <div className="tile is-child is-10">
                 <div className="tile is-parent">
                   <div className="tile is-child box invisible animation-1">
                     {" "}
@@ -121,14 +122,14 @@ const About = () => {
 
               <div className="tile is-child">
                 <div className="tile is-parent">
-                  <div className="tile is-child invisible animation-5">
-                    <figure className="image">
-                      <img
-                        className="img-max"
-                        src="https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ"
-                        alt="Mountain"
-                      />
-                    </figure>
+                  <div className="tile is-child invisible animation-5 box">
+                    <p className="title has-text-black has-text-centered">Mis redes sociales</p>
+                      <ul>
+                        <li className="has-text-centered"> <a href="https://www.linkedin.com/in/rodrigo-romero-sena/" target="_blank"> <img className="social-icons" src="/assets/linkedin.svg" alt="" /></a> </li>
+                        <li className="has-text-centered"> <a href="https://www.facebook.com/rodri.rirs/" target="_blank"> <img className="social-icons" src="/assets/facebook.svg" alt="" /></a> </li>
+                        <li className="has-text-centered"> <a href="https://www.instagram.com/rodrimagic/" target="_blank"><img className="social-icons" src="/assets/instagram.svg" alt="" /></a> </li>
+                        <li className="has-text-centered"> <a href="https://twitter.com/RodriRo28" target="_blank"><img className="social-icons" src="/assets/twitter.svg" alt="" /></a> </li>
+                      </ul>
                   </div>
                 </div>
               </div>
